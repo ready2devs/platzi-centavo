@@ -1,0 +1,13 @@
+{
+  "name": "platzi-centavo",
+  "version": "1.0.0",
+  "description": "**Centavo** es una aplicación de finanzas personales para uso individual, orientada a registrar gastos, gestionar presupuestos y emitir alertas tempranas de sobregasto.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
