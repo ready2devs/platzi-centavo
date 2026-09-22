@@ -24,6 +24,7 @@ yarn-error.log*
 .turbo/
 
 # OS and IDE files
+*.bat
 .DS_Store
 Thumbs.db
 .idea/
