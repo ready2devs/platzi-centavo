@@ -4,7 +4,14 @@
   "description": "**Centavo** es una aplicación de finanzas personales para uso individual, orientada a registrar gastos, gestionar presupuestos y emitir alertas tempranas de sobregasto.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:auth": "npm run dev --prefix auth-service",
+    "dev:transactions": "npm run dev --prefix transactions-service",
+    "dev:budgets": "npm run dev --prefix budgets-service",
+    "dev:notifications": "npm run dev --prefix notifications-service",
+    "dev:reports": "npm run dev --prefix reports-service",
+    "report": "npm run report --prefix reports-service",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "test:all": "npm test --prefix auth-service && npm test --prefix budgets-service && npm test --prefix transactions-service && npm test --prefix notifications-service && npm test --prefix reports-service"
   },
   "keywords": [],
   "author": "",

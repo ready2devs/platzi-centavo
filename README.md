@@ -38,11 +38,3 @@ flowchart TD
 | **`notifications-service/`** | **Alertas** | Monitoreo y entrega de advertencias al usuario cuando se acerca al límite o se produce un sobregasto en un presupuesto. Soporta notificaciones in-app, correo electrónico o push. |
 | **`reports-service/`** | **Reportes** | Agregación de métricas y generación automática de balances periódicos (mensuales/anuales), exportaciones (PDF/CSV) y análisis de tendencias de consumo. |
 
----
-
-## 🚀 Próximos Pasos
-
-1. **Definir especificación de APIs y contratos** (OpenAPI / AsyncAPI / GraphQL / gRPC).
-2. **Inicializar los esqueletos de carpetas** para cada servicio con sus respectivas dependencias y configuraciones.
-3. **Establecer la estrategia de comunicación entre microservicios** (HTTP/REST síncrono para lecturas directas y Broker/Eventos como RabbitMQ/Kafka/Redis para eventos de sobregasto y transacciones).
-4. **Configurar el entorno de desarrollo local** (Docker Compose, variables de entorno y scripts de arranque).
